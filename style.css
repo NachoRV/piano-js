@@ -1,0 +1,17 @@
+body {
+    background-color: rgb(174, 248, 223);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    gap: 1rem;
+}
+button {
+    width: 100px;
+    height: 200px;
+}
+
+button:hover {
+    opacity: 0.5;
+    cursor: pointer;
+}
