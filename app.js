@@ -34,5 +34,5 @@ document.addEventListener('keydown', function(event) {
     const key = event.key;
     console.log(key)
     const btn = document.querySelector(`button[data-key="${key}"]`)
-
+    if(btn) btn.click()
 })
